@@ -2,6 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+};
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: ["api-bwa-storegg.herokuapp.com"],
+  },
+};
+
+module.exports = nextConfig;
